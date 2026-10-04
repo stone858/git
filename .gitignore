@@ -1,0 +1,17 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.local
+secrets.*
+credentials.json
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
